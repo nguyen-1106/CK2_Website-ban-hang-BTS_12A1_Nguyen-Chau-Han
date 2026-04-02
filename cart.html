@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng - A.R.M.Y Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo-area">
+                <a href="index.html">
+                    <img src="assets/logo.png" alt="Logo" class="shop-logo">
+                </a>
+                <span class="brand-name">A.R.M.Y</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="shop.html">Mua hàng</a></li>
+                    <li><a href="product.html">Chi tiết</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">Giới thiệu</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                    <li><a href="cart.html" class="active">Giỏ hàng</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-circle-user"></i>
+                <a href="cart.html" style="color:white;"><i class="fa-solid fa-cart-arrow-down"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="cart-container">
+        <h2 class="section-title">GIỎ HÀNG CỦA BẠN</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Giá</th>
+                    <th>Tạm tính</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div style="display: flex; align-items: center; gap: 15px;">
+                            <img src="assets/Love Yourself Tear.jpg" class="cart-img">
+                            <span>Love Yourself: Tear</span>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" min="0" class="qty-input"></td>
+                    <td>640.000đ</td>
+                    <td>640.000đ</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div style="display: flex; align-items: center; gap: 15px;">
+                            <img src="assets/lightstick.jpg" class="cart-img">
+                            <span>Official Lightstick Ver.4</span>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" min="0" class="qty-input"></td>
+                    <td>1.100.000đ</td>
+                    <td>1.100.000đ</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="cart-total">TỔNG CỘNG: 1.740.000đ</div>
+        <div class="checkout-area">
+            <a href="shop.html" class="cta-button" style="background: transparent; border: 1px solid #a855f7; margin-right: 10px;">TIẾP TỤC MUA SẮM</a>
+            <a href="#" class="cta-button">THANH TOÁN NGAY</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>A.R.M.Y STORE</h3>
+                <p>Cửa hàng cung cấp album và phụ kiện BTS </p>
+                    <p>chính hãng hàng đầu Việt Nam.</p>
+                <p><i class="fa-solid fa-location-dot"></i> 123 Đường Hàn Quốc, Quận 7, TP. Hồ Chí Minh</p>
+                <p><i class="fa-solid fa-envelope"></i> armyshop@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> (+84) 1306 2013</p> 
+            </div>
+
+            <div class="footer-social">
+                <h3>LIÊN HỆ / SOCIAL</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/bangtan.official" target="_blank" title="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/bts.bighitofficial" target="_blank" title="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/user/BANGTANTV" target="_blank" title="Youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@bts_official_bighit" target="_blank" title="TikTok">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 A.R.M.Y Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
